@@ -1,0 +1,34 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #262626;
+  color: #afa;
+}
+
+p {
+  margin: 0.25rem 0;
+}
+
+.instructions {
+  color: #eee;
+  margin: 20px 2px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #646;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+
+.instructions a {
+  color: #9e9;
+}
+
+.instructions p {
+  margin: 12px 0;
+}
+
+.instructions code {
+  font-size: larger;
+  background-color: #535;
+  padding: 3px;
+  border-radius: 3px;
+}

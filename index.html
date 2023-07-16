@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="instructions">
+      <p>
+        Demo for the DCI Typescript linter library
+        <a
+          target="_blank"
+          href="https://github.com/ciscoheat/eslint-plugin-dci-lint"
+          >eslint-plugin-dci-lint</a
+        >.
+      </p>
+
+      <p>
+        A tutorial is available at
+        <a
+          target="_blank"
+          href="https://blog.encodeart.dev/dci-tutorial-for-typescript-part-1"
+          >https://blog.encodeart.dev/dci-tutorial-for-typescript-part-1</a
+        >
+      </p>
+
+      <p>
+        Stackblitz cannot lint the DCI code in realtime, so the error that has
+        sneaked into <code>MoneyTransfer.ts</code> is resulting in a faulty
+        amount being deducted from the source account.
+      </p>
+
+      <p>
+        If you open a terminal, by clicking the "+" button in the terminal panel
+        below and typing in <code>eslint .</code> you can see the error, and fix
+        it.
+      </p>
+
+      <p>
+        When you use
+        <a target="_blank" href="https://code.visualstudio.com/">VS Code</a>
+        with the
+        <a
+          target="_blank"
+          href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"
+          >ESLint extension</a
+        >, it gives you linting as you type, and by including ESLint into your
+        build process, it will make all Contexts adhere to DCI conventions and
+        rules.
+      </p>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
